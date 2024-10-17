@@ -37,6 +37,14 @@ body{
     padding: 0.5lh 1.5lh;
 }
 
+.button:hover,
+.button:focus-visible,
+.menu__link:hover,
+.menu__link:focus-visible{
+    background-color: olivedrab;
+}
+
+
 .menu{
     text-transform: uppercase;
     line-height: 0;
